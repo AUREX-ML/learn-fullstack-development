@@ -13,4 +13,4 @@ function setTheme(theme) {
 
 // 1. Try to change the theme to 'dark'
 // 2. Run the code to see that it works
-setTheme('light');
+setTheme('dark');
