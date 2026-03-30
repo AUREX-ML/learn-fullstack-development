@@ -10,4 +10,17 @@ body {
     background-image: url("images/universe.jpg");
     background-size: cover;
 }
+.page {
+    margin: 0 auto;
+}
+
+article {
+    text-align: center;
+}
+
+.btn {
+    padding: 5px 10px;
+    background: white;
+    border: none;
+}
 

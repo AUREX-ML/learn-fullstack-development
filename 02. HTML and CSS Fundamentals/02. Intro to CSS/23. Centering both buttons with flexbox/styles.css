@@ -32,6 +32,8 @@ Give the div a "btn-wrapper" class.
 
 .btn {
     margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
     background: #dfe1e5;
     border: none;
     padding-top: 8px;
@@ -40,4 +42,9 @@ Give the div a "btn-wrapper" class.
     padding-right: 16px;
     border-radius: 4px;
     font-size: 14px;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: center;
 }

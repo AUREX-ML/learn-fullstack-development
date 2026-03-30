@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Energy Dashboard</title>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <style>
+            body{
+                background: #0f172a;
+                color: white;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            .dashboard {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 20px;
+                padding: 20px;
+
+            }
+
+            .card {
+                background: #1e293b;
+                padding: 20px;
+                border-radius: 12px;
+
+            }
+
+        </style>
+    </head>
+    <body>
+        <h2 style="padding: 20px;">Smart Energy Monitoring</h2>
+        <div class="dashboard">
+            <div class="card">
+                <h3>Voltage</h3>
+                <canvas id="voltageChart"></canvas>
+            </div>
+            <div class="card">
+                <h3>Current</h3>
+                <canvas id="currentChart"></canvas>
+            </div>
+            
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
